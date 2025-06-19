@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Universe</title>
+  <link rel="stylesheet" href="style4.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" defer></script>
+  <script src="script3.js" defer></script>
+  <script src="toggle3.js" defer></script>
+</head>
+<body>
+  <button id="themeToggle">Theme</button>
+
+  <header class="intro">
+    <h1 class="glitch-text">Digital Nomad</h1>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+  </header>
+
+  <section id="about" class="section fade-in">
+    <h2 class="section-title">About Me</h2>
+    <p>Hi, I am Mehul Desai, a modern digital Nomad. I explore stories through text, image, and motion.</p>
+  </section>
+
+  <section id="work" class="section fade-in">
+    <h2 class="section-title">My Creative Work</h2>
+    <div class="gallery">
+      <img src="assets/images/work1.jpg" alt="Art 1" />
+      <img src="assets/images/work2.jpg" alt="Art 2" />
+      <img src="assets/images/work3.jpg" alt="Art 3" />
+    </div>
+  </section>
+
+  <section id="publication" class="section fade-in">
+    <h2 class="section-title">My Publications</h2>
+    <p>Essays, poems, interactive fiction in journals worldwide.</p>
+  </section>
+
+  <section class="section lottie-container fade-in">
+    <h2 class="section-title">Visual Story</h2>
+    <div id="lottie-animation" style="width: 100%; height: 400px;"></div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
